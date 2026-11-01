@@ -1,0 +1,62 @@
+/* A small family of transparent paper sculptures: understand, improve, digitise. */
+.intro{padding-top:80px;padding-bottom:75px}.intro .eyebrow{margin-bottom:12px}
+.abstract-stack{position:relative;isolation:isolate;display:flex;justify-content:center;align-items:center;width:440px;max-width:100%;height:200px;margin:0 auto}
+.abstract-stack .abstract-piece{flex:none;width:190px;height:190px;object-fit:contain;transition:transform .65s cubic-bezier(.16,1,.3,1);filter:drop-shadow(0 5px 6px #1927490a)}
+.abstract-stack .abstract-understand{transform:rotate(-12deg) translate(15px,10px);z-index:1}
+.abstract-stack .abstract-improve{margin-left:-65px;transform:translateY(-6px);z-index:3}
+.abstract-stack .abstract-digitise{margin-left:-65px;transform:rotate(12deg) translate(-8px,8px);z-index:2}
+.intro-phases{display:flex;justify-content:center;gap:40px;font-size:9px;font-weight:500;letter-spacing:.13em;text-transform:uppercase;margin:3px 0 32px;color:var(--muted)}
+.intro-text{font-size:clamp(28px,3.3vw,47px);max-width:1040px;line-height:1.45}
+/* A loose process becoming a connected system, with no unrelated photo props. */
+.principle-wrap .principle{padding-block:90px;gap:80px}
+.process-abstract{width:100%;max-width:430px;height:auto;aspect-ratio:1/1.05;isolation:isolate}
+.principle-art.process-abstract>img{border:0;box-shadow:none;object-fit:contain;object-position:center;transform:none;transition:transform .65s cubic-bezier(.16,1,.3,1)}
+.principle-art.process-abstract>.process-before{width:65%;height:65%;left:-9%;top:-4%;transform:rotate(-14deg)}
+.principle-art.process-abstract>.process-after{width:84%;height:84%;left:auto;right:-7%;top:auto;bottom:2%;transform:rotate(9deg)}
+.process-direction{position:absolute;left:42%;top:25%;font-size:46px;line-height:1;transform:rotate(-8deg);color:var(--ink);opacity:.55}
+.process-brand{position:absolute;left:0;bottom:12%;display:block;width:76px;height:76px;transform:rotate(-7deg);isolation:isolate}
+.process-brand>img{width:100%;height:100%;object-fit:contain}.process-brand::before{content:'';position:absolute;inset:16%;background:var(--bg);border-radius:20%;z-index:-1}
+.process-caption{position:absolute;left:0;right:0;bottom:-2%;border-top:1px solid #19274935;padding-top:15px;font-size:10px;text-transform:uppercase;letter-spacing:.12em}
+/* One sculptural ribbon bridges products and the working process. */
+.abstract-bridge{position:relative;z-index:2;pointer-events:none;height:0}
+.abstract-bridge>img{position:absolute;right:max(60px,calc((100vw - 1280px)/2 + 20px));top:-185px;width:360px;height:360px;object-fit:contain;transform:rotate(12deg);filter:drop-shadow(0 4px 7px #19274915)}
+.editorial-products{padding-bottom:210px}.editorial-process{padding-top:180px}
+.contact-art>img.abstract-contact{width:100%;height:100%;object-fit:contain;object-position:center;mix-blend-mode:normal;transform:rotate(-12deg)}
+.contact-art>.contact-brand{width:95px;height:95px;right:-15px;bottom:-8px;transform:rotate(9deg)}
+@media(hover:hover) and (pointer:fine){.abstract-stack:hover .abstract-understand{transform:rotate(-20deg) translate(0,0)}.abstract-stack:hover .abstract-improve{transform:translateY(-16px) scale(1.03)}.abstract-stack:hover .abstract-digitise{transform:rotate(18deg) translate(3px,-4px)}.process-abstract:hover>.process-before{transform:rotate(-20deg) translate(-6px,-6px)}.process-abstract:hover>.process-after{transform:rotate(3deg) translate(4px,-7px)}}
+@media(max-width:800px){.intro{padding-top:65px;padding-bottom:65px}.abstract-stack{height:185px}.abstract-stack .abstract-piece{width:175px;height:175px}.principle-wrap .principle{gap:45px;padding-block:75px}.process-direction{font-size:35px}.process-brand{width:62px;height:62px}.process-caption{font-size:8px;line-height:1.7;letter-spacing:.08em}.abstract-bridge>img{width:290px;height:290px;top:-150px;right:40px}.editorial-products{padding-bottom:180px}.editorial-process{padding-top:150px}}
+@media(max-width:560px){.intro{padding-top:55px;padding-bottom:50px}.intro .eyebrow{font-size:8px;max-width:35ch;margin-inline:auto;letter-spacing:.1em}.abstract-stack{width:310px;height:150px}.abstract-stack .abstract-piece{width:145px;height:145px}.abstract-stack .abstract-improve,.abstract-stack .abstract-digitise{margin-left:-45px}.abstract-stack .abstract-understand{transform:rotate(-12deg) translate(4px,8px)}.abstract-stack .abstract-digitise{transform:rotate(12deg) translate(-4px,6px)}.intro-phases{gap:22px;font-size:8px;letter-spacing:.08em;margin-bottom:26px;margin-top:0}.intro-text{font-size:28px;line-height:1.5}.principle-wrap .principle{padding-block:55px;gap:35px}.process-abstract{max-width:285px;aspect-ratio:1/1.05}.process-brand{width:63px;height:63px}.process-caption{font-size:9px}.abstract-bridge>img{width:220px;height:220px;top:-115px;right:28px}.editorial-products{padding-bottom:160px}.editorial-process{padding-top:170px}.contact-art>.contact-brand{width:80px;height:80px;right:-5px;bottom:-7px}}
+@media(prefers-reduced-motion:reduce){.abstract-stack .abstract-piece,.principle-art.process-abstract>img{transition:none}}
+@media(max-width:560px){.principle-art.process-abstract>.process-before{left:0}.principle-art.process-abstract>.process-after{right:6%;width:78%;height:78%}}
+@media(max-width:360px){.abstract-stack{height:135px}.abstract-stack .abstract-piece{width:120px;height:120px}.abstract-stack .abstract-improve,.abstract-stack .abstract-digitise{margin-left:-38px}.intro-phases{gap:18px;font-size:7px}}
+
+/* Keep the artwork inside the sentence, in the original three image positions. */
+.intro .eyebrow{margin-bottom:30px}
+.intro-text{line-height:1.6;max-width:1100px}
+.inline-process{position:relative;display:inline-block;vertical-align:-.2em;height:1.15em;margin:0 .08em;white-space:nowrap;isolation:isolate}
+.inline-icon-stack{width:2.35em;height:1.05em;vertical-align:-.15em}
+.process-circle{position:absolute;top:0;width:1.05em;height:1.05em;border:2px solid var(--bg);border-radius:50%;background:#e2e6dc;overflow:hidden;display:grid;place-items:center;transition:transform .4s cubic-bezier(.16,1,.3,1)}
+.process-circle:nth-child(1){left:0;z-index:1;transform:rotate(-12deg)}
+.process-circle:nth-child(2){left:.64em;z-index:2;background:#f0d45c;transform:rotate(8deg)}
+.process-circle:nth-child(3){left:1.28em;z-index:3;background:#e1e6e9;transform:rotate(-5deg)}
+.process-circle>img{width:100%;height:100%;object-fit:contain;padding:.05em}
+.inline-ribbon{width:1.6em}.inline-system{width:1.35em}
+.inline-process>img{width:100%;height:100%;object-fit:contain;transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.motion-ready .inline-process{opacity:.3;transform:translateY(.12em) scale(.88);transition:opacity .65s,transform .75s cubic-bezier(.16,1,.3,1)}
+.motion-ready .intro-text.is-visible .inline-process{opacity:1;transform:none}
+@media(hover:hover) and (pointer:fine){.inline-icon-stack:hover .process-circle:nth-child(1){transform:translateX(-.12em) rotate(-22deg)}.inline-icon-stack:hover .process-circle:nth-child(2){transform:translateY(-.12em) rotate(0deg)}.inline-icon-stack:hover .process-circle:nth-child(3){transform:translateX(.12em) rotate(8deg)}.inline-ribbon:hover>img{transform:scale(1.1)}.inline-system:hover>img{transform:rotate(9deg) scale(1.1)}}
+@media(max-width:560px){.intro .eyebrow{margin-bottom:24px}.intro-text{font-size:28px;line-height:1.65}.inline-process{margin:0 .03em}.process-circle{border-width:1.5px}}
+@media(prefers-reduced-motion:reduce){.motion-ready .inline-process{opacity:1;transform:none;transition:none}.process-circle,.inline-process>img{transition:none}}
+.process-circle>img{padding:0;transform:scale(1.16)}
+.inline-ribbon{background:none;border-radius:.18em;padding:0;overflow:hidden}
+.inline-ribbon>img{object-fit:cover}
+.inline-system{width:1.15em;background:#f0d45c;border-radius:50%;padding:.04em}
+
+/* Measure each text row, then draw one continuous stroke through them in order. */
+.intro-text{position:relative;isolation:isolate}
+.motion-ready .intro-text .intro-finish{background:none;transition:none}
+.intro-ink{position:absolute;inset:0;pointer-events:none;z-index:-1}
+.intro-ink-line{position:absolute;display:block;background:var(--yellow);transform:scaleX(0);transform-origin:left}
+.intro-text.is-visible .intro-ink-line{animation-name:intro-underline-draw;animation-timing-function:linear;animation-fill-mode:both}
+@keyframes intro-underline-draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media(prefers-reduced-motion:reduce){.intro-ink{display:none}}

@@ -1,0 +1,6 @@
+# Keep code, settings, notes and Git files out of public reach.
+Options -Indexes
+<FilesMatch "^(config\.php|.*\.md|.*\.sh|\.git.*)$">
+  Require all denied
+</FilesMatch>
+RedirectMatch 404 ^/(lib|data|tests|\.git)(/|$)

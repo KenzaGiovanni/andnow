@@ -1,0 +1,18 @@
+# Design and testing leftovers - not part of the live site
+.playwright-mcp/
+.review/
+.impeccable/
+directions/
+tests/
+ui-check-intro.png
+IMAGE-PROMPTS.md
+PRODUCT.md
+
+# Saved enquiries (personal data) - keep the folder's lock file only
+data/*
+!data/.htaccess
+
+# Mac system files
+.DS_Store
+*.zip
+

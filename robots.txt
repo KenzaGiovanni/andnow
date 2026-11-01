@@ -1,0 +1,10 @@
+# &Now - andnowhq.com
+# Search engines and AI assistants (Google, Bing, ChatGPT, Claude, Perplexity and others) are welcome to read the site.
+User-agent: *
+Allow: /
+Disallow: /lib/
+Disallow: /data/
+Disallow: /tests/
+Disallow: /contact.php
+
+Sitemap: https://andnowhq.com/sitemap.xml

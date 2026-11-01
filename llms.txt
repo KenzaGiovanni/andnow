@@ -1,0 +1,45 @@
+# &Now
+
+> &Now is an IT and process consulting practice in Indonesia. It improves how a business works before digitising it, then builds the software or website around the better process. Work is available in English and Bahasa Indonesia.
+
+Website: https://andnowhq.com (English: https://andnowhq.com/?lang=en, Bahasa Indonesia: https://andnowhq.com/?lang=id)
+Email: hello@andnowhq.com
+WhatsApp: +62 851-7333-6932 (https://wa.me/6285173336932)
+
+## What &Now does
+
+- Improve your process: understand how work happens today, clarify responsibilities and redesign the steps that get in the way.
+- Custom software: turn the improved process into software the team can use, with clear steps and handovers.
+- Web presence: websites that help customers understand what a business does and take the next step. Designed, hosted and maintained by &Now.
+- Curated solution: software built for specific ways of working. An existing product may be all a business needs.
+
+## How a project runs
+
+1. Understand: walk through how work actually gets done, including the workarounds the team relies on.
+2. Improve: remove unnecessary steps, clarify who does what and agree how the process should work.
+3. Digitise: choose and build the tools that support the improved process, then test them with the team.
+4. Refine: support the team, review how the system works in practice and adjust as the business changes.
+
+## Selected work
+
+- PT Acosystem Advisory Indonesia (advisory, website): founders, SME owners and foreign investors all landed on one page with no clear way in. &Now built a site that asks who you are first, then sends you straight to the right partner.
+- DIMAS, FMCG distributor in East Java (delivery system and website): deliveries ran on paper and WhatsApp. &Now built a proof of delivery app where drivers log every drop with photo, signature, cash and GPS. The office now tracks every route live and checks the cash against the app.
+- Sunday Table, home bakery in Surabaya (ordering system): orders came in as loose Instagram messages that had to be retyped. &Now built an ordering site where customers pick what they want themselves. Every order now arrives complete and in one place.
+
+## In-house products
+
+- LedFlow (https://ledflowapp.com): imports Shopee, Lazada and TikTok Shop exports into Accurate Online, without retyping.
+- Westra (https://getwestra.com): schedules, credit packs, attendance and payment reminders for lesson studios, in one place.
+- Sumaru (coming soon): accounting for Indonesian SMEs. Invoices, bank and reports, without needing to be an accountant.
+
+## Common questions
+
+- Do we need new software? Not always. Sometimes clearer responsibilities or a simpler process solve the problem. &Now works out what needs improving before recommending what to digitise.
+- What does a project cost? It depends on what needs fixing and what needs building, so the first step is a free 30-minute call. Most projects take 4-12 weeks. If there is work to do, scope and price are agreed in writing before anything starts.
+- Can you work with the system we already use? Often, yes. The aim is to improve how things work, which may mean adapting the current system rather than replacing it.
+- Who hosts and maintains it after launch? &Now can host and maintain what it builds. Everything is documented and the code belongs to the client, so another developer can always take over.
+- Can everything be in Bahasa Indonesia? Yes. Conversations, documents and the software itself can be in Bahasa Indonesia, English, or both.
+
+## Getting started
+
+Book a free 30-minute call through the contact form at https://andnowhq.com/#contact, on WhatsApp +62 851-7333-6932, or email hello@andnowhq.com. &Now replies within 1 working day.
